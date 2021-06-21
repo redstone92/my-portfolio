@@ -268,3 +268,21 @@ a { text-decoration: none; color: black;}
 .address {
   margin-top: 50px;
 }
+
+.address h2 {
+  margin-bottom: 15px;
+}
+
+.go_github {
+  margin-top: 20px;
+}
+.address a {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid #d4d5d7;
+}
+
+.address a:hover {
+  background: #0366fc;
+  color: white;
+}

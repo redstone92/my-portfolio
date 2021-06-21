@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#sub_banner {
+  background: url('../img/open/open_banner.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.tabBox {
+  margin: 30px 0 30px;
+}
+
+.tabBox ul {
+  display: block;
+  border-bottom: 1px solid #3a73db;
+  overflow: hidden;
+}
+
+.tabBox ul li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.tabBox ul li a {
+  display: block;
+  height: 53px;
+  line-height: 53px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #888888;
+  background-color: #f5f6f7;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.tabBox ul li a span {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.tabBox ul li a.now {
+  color: white;
+  background-color: #3a73db;
+}

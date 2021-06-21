@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+#sub_banner {
+  background: url('../img/knowledge/sub_bg.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.gas {
+  padding: 50px 0;
+  margin-top: 30px;
+  border: 1px solid #d3d4d8;
+}
+
+.gas .gas_list {
+  width: 870px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gas .gas_list > li {
+  float: left;
+  width: 400px;
+}
+
+.gas .gas_list > li + li {
+  margin-left: 60px;
+}
+
+.gas .gas_list > li .conbox {
+  position: relative;
+  min-height: 130px;
+  padding-top: 1px;
+  padding-left: 130px;
+}
+
+.conbox .tit {
+  margin-top: 15px;
+}
+
+.conbox h3 {
+  margin: 28px 0 16px 0;
+  font-size: 18px;
+  line-height: 1em;
+  font-weight: 400;
+  color: #3a73db;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.conbox .photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+}
+
+.conbox .photo + p {
+  line-height: 1.6em;
+}
+
+.benefit {
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.benefit li {
+  float: left;
+  width: 20%;
+  padding-right: 44px;
+  background: url('../img/knowledge/plus.png') no-repeat 99% 45px;
+}
+
+.benefit li:last-child {
+  background: none;
+}
+
+.b_item {
+  box-sizing: border-box;
+}
+.i_top {
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+
+.i_top strong {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  background: #c2d1ef;
+  font-size: 40px;
+}
+
+.b_item h3 {
+  margin: 28px 0 16px 0;
+  font-size: 18px;
+  line-height: 1em;
+  font-weight: 400;
+  color: #3a73db;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.b_item p {
+  font-size: 15px;
+  color: #444444;
+  line-height: 1.6em;
+}

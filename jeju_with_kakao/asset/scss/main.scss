@@ -1,0 +1,49 @@
+//메인페이지
+.mainbanner {
+  height: 550px;
+  background: url('../img/background.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .maintitle {
+    color: white;
+    p {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 32px;
+      line-height: 45px;
+      font-weight: bold;
+      padding: 20px;
+      margin: 20px 0;
+      span {
+        color: $fontColorPrimary;
+      }
+    }
+    .btngroup {
+      margin-top: 60px;
+      .gbtn {
+        margin: 0 5px;
+        color: $fontColorSecond;
+        border: 2px solid $gbtnColor;
+        &:hover {
+          background: $gbtnColor;
+          color: $gbtnColorHover;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  padding: 60px 0 120px;
+  .inner {
+    & + .inner {
+      // margin-top: 25px;
+      // padding-top: 25px;
+    }
+  }
+}

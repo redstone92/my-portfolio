@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+#sub_banner {
+  background: url('../img/open/open_banner.jpg') no-repeat center center;
+  background-size: cover;
+}

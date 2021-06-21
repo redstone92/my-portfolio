@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+#sub_banner {
+  background: url('../img/management/sub_bg.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.system {
+  margin-top: 30px;
+  /* box-sizing: border-box; */
+}
+
+.system .s_box {
+  float: left;
+  margin-top: 40px;
+}
+
+.s_box dt {
+  font-size: 18px;
+  color: #3a79db;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.s_box.system01 {
+  width: 46%;
+  margin-bottom: 30px;
+}
+
+.s_box.system02, .s_box.system03 {
+  width: 22.5%;
+  margin-left: 4.5%;
+  margin-bottom: 30px;
+}
+
+.s_box.system01 dd {
+  float: left;
+  width: 49%;
+}
+
+.s_box dd + dd {
+  margin-left: 2%;
+}
+
+.s_box dd img {
+  width: 100%;
+}
+
+.s_box dd ul {
+  overflow: hidden;
+}
+
+.system .system02 li, .system .system03 li {
+  display: inline-block;
+  float: left;
+  width: 49%;
+}
+
+.s_box dd li {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #444444;
+}
+
+.s_box dd ul li span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  color: white;
+  background: #3a73db;
+  text-align: center;
+  font-size: 11px;
+  vertical-align: middle;
+  margin-right: 4px;
+  padding-top: 2px;
+}

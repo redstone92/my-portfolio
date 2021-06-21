@@ -1,0 +1,254 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+* {margin: 0; padding: 0;}
+body{ font-family: 'Noto Sans KR', sans-serif; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color: black;}
+
+#wrap {
+  width: 100%;
+}
+
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#mainbanner {
+  width: 100%;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+#mainbanner h1 {
+  float: left;
+  font-size: 54px;
+}
+
+#mainbanner h2 {
+  float: right;
+  text-align: right;
+  font-size: 36px;
+}
+
+#mainbanner h2 span {
+  font-size: 42px;
+}
+
+#introduce {
+  margin-top: 20px;
+  padding: 40px 0;
+  overflow: hidden;
+  border-top: 1px solid #d4d5d7;
+}
+
+.site {
+  width: 100%;
+  overflow: hidden;
+}
+
+.site .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site .menu li {
+  float: left;
+  padding: 0 20px;
+  border-right: 1px solid #d4d5d7;
+}
+
+.site .menu li a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.site .menu li a:hover {
+  color: #0366fc;
+}
+
+.page_introduce {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-top: 80px;
+}
+
+.page_introduce li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1000px;
+  height: 380px;
+  padding: 80px;
+  /* z-index: 300; */
+}
+
+.page_introduce li h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.page_introduce li p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.primary_color {
+  overflow: hidden;
+  margin-top: 30px;
+  padding: 10px 0;
+}
+
+.primary_color p {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 60px;
+  float: left;
+  margin-right: 20px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #d1d1d1;
+}
+.circle + span {
+  height: 20px;
+  line-height: 20px;
+  padding: 5px 0;
+}
+.site_img {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 400px;
+  height: 300px;
+  border: 3px solid #d4d5d7;
+  padding: 5px;
+}
+
+.go_page {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  margin-left: 50px;
+}
+
+.page_introduce li a {
+  position: absolute;
+  display: block;
+  float: left;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  margin-right: 20px;
+  border: 1px solid #d4d5d7;
+  background: white;
+  text-align: center;
+  z-index: 600;
+}
+
+.page_introduce li a.go {
+  bottom: 20%;
+  left: 0;
+}
+
+.page_introduce li a.github {
+  bottom: 20%;
+  left: 150px;
+}
+
+
+/* 풀무원 */
+.pulmuone {
+  display: none;
+}
+.pulmuone .primary_color .first .circle {
+  background: #8dc63f;
+}
+.pulmuone .primary_color .second .circle {
+  background: #7f9f52;
+}
+.pulmuone .primary_color .third .circle {
+  background: #ffffff;
+}
+.pulmuone .site_img {
+  background: url('../img/pulmuone.png') no-repeat center center;
+}
+
+/* 세인트제임스 */
+.saintjames {
+  display: none;
+}
+.saintjames .primary_color .first .circle {
+  background: #032a5a;
+}
+.saintjames .primary_color .second .circle {
+  background: #ae414e;
+}
+.saintjames .primary_color .third .circle {
+  background: #eff2f6;
+}
+.saintjames .site_img {
+  background: url('../img/saintjames.png') no-repeat center center;
+}
+
+/* 한국가스공사 */
+.kogas {
+  display: none;
+}
+.kogas .primary_color .first .circle {
+  background: #494a4e;
+}
+.kogas .primary_color .second .circle {
+  background: #3a73db;
+}
+.kogas .primary_color .third .circle {
+  background: #ffffff;
+}
+.kogas .site_img {
+  background: url('../img/kogas.png') no-repeat center center;
+}
+
+/* 네이버클로바 */
+.naver_clova {
+  display: none;
+}
+.naver_clova .primary_color .first .circle {
+  background: #05d685;
+}
+.naver_clova .primary_color .second .circle {
+  background: #000000;
+}
+.naver_clova .primary_color .third .circle {
+  background: #ffffff;
+}
+.naver_clova .site_img {
+  background: url('../img/naver_clova.png') no-repeat center center;
+}
+
+/* 제주 with 카카오 */
+.jeju_with_kakao {
+  display: none;
+}
+.jeju_with_kakao .primary_color .first .circle {
+  background: #ffcd02;
+}
+.jeju_with_kakao .primary_color .second .circle {
+  background: #000000;
+}
+.jeju_with_kakao .primary_color .third .circle {
+  background: #ffffff;
+}
+.jeju_with_kakao .site_img {
+  background: url('../img/jeju_with_kakao.png') no-repeat center center;
+}

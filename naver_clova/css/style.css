@@ -354,7 +354,7 @@ section > article > h2{
   font-size: 40px;
 }
 
-section > article > p{
+section > article > h3 {
    font-size: 20px;
 }
 
@@ -574,6 +574,15 @@ margin-right: 26px;
 
 /* tablet pc */
 @media screen and ( max-width: 767px ) {
+
+  section > article > h2 {
+    font-size: 30px
+  }
+  section > article > h3 {
+    font-size: 24px;
+  }
+
+
   section .row .column{
     flex: 100%;
   }
@@ -655,6 +664,19 @@ margin-right: 26px;
 /* mobile  */
 
 @media screen and ( max-width: 480px ) {
+
+  .button {
+    font-size: 12px;
+    padding: 4px 16px;
+  }
+  section > article > h2 {
+    font-size: 22px
+  }
+  section > article > h3 {
+    font-size: 14px;
+  }
+
+
   section#news .row .column {
     flex: 100%;
   }
